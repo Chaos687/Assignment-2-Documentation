@@ -378,20 +378,17 @@ nav a:hover {
 
 ---
 
-### ABOUT PAGE: `about.html`
+### Integrated Video Explainer (About Page)
 
-#### Intergrated Video Explainer covering the layout of the website:
- 
-  <video width="640" height="360" controls>
+```html
+<video width="640" height="360" controls>
   <source src="https://raw.githubusercontent.com/Chaos687/Assignment-2-Documentation/main/Website%20video%20explainer.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-  </video>
-   <video width="640" height="360" controls>
-   <source src="https://raw.githubusercontent.com/Chaos687/Assignment-2-Documentation/main/Website%20video%20explainer.mp4" type="video/mp4">
-   </video>
+</video>
+```
+
 ---
 
-#### Carousel Section:
+### Carousel Section CSS
 
 ```css
 .carousel-wrapper {
@@ -421,35 +418,11 @@ nav a:hover {
 }
 ```
 
-#### Carousel Section:
+---
 
-```css
-.carousel-wrapper {
-  overflow: hidden;
-  width: 100%;
-  height: 220px;
-  position: relative;
-  box-sizing: border-box;
-  margin: 20px 0;
-}
-.carousel-track {
-  display: flex;
-  width: fit-content;
-  animation: scrollLeft 30s linear infinite;
-}
-.carousel-track img {
-  width: 200px;
-  height: 200px;
-  object-fit: cover;
-  border-radius: 10px;
-  margin-right: 10px;
-  flex-shrink: 0;
-}
-@keyframes scrollLeft {
-  0% { transform: translateX(0%); }
-  100% { transform: translateX(-50%); }
-}
-```
+### Carousel Section HTML
+
+```html
 <section>
   <div class="carousel-wrapper">
     <div class="carousel-track">
@@ -473,7 +446,7 @@ nav a:hover {
 ---
 
 ## Full About Page: `about.html`
----
+
 ```html
 <!DOCTYPE html>
 <html lang="en">
@@ -566,13 +539,6 @@ nav a:hover {
       create a sense of community, promote healthy living through physical activity and continue to provide development pathways for peak-performing athletes.
     </p>
   </section>
-<<<<<<< HEAD
-  <video width="640" height="360" controls>
-  <source src="https://raw.githubusercontent.com/Chaos687/Assignment-2-Documentation/main/Website%20video%20explainer.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-  </video>
-=======
->>>>>>> 2a90ce714beb409f13e066201da998dea55b768c
 
     <video width="640" height="360" controls>
     <source src="https://raw.githubusercontent.com/Chaos687/Assignment-2-Documentation/main/Website%20video%20explainer.mp4" type="video/mp4">
