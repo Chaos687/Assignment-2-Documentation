@@ -752,6 +752,7 @@ button {
       padding: 0;
       box-sizing: border-box;
     }
+
     header {
       background-color: #4CAF50;
       color: white;
@@ -760,20 +761,24 @@ button {
       align-items: center;
       text-align: left;
     }
+
     .logo {
       height: 60px;
       width: auto;
       margin-right: 15px;
       border-radius: 5px;
     }
+
     header h1 {
       margin: 0;
       font-size: 24px;
     }
+
     nav {
       background-color: #333;
       overflow: hidden;
     }
+
     nav a {
       float: left;
       color: white;
@@ -781,25 +786,31 @@ button {
       padding: 14px 16px;
       text-decoration: none;
     }
+
     nav a:hover {
       background-color: #ddd;
       color: black;
     }
+
     section {
       padding: 40px 20px 200px;
     }
+
     .container {
       display: flex;
       justify-content: space-between;
       flex-wrap: wrap;
     }
+
     .form-section, .contact-section {
       width: 45%;
       min-width: 300px;
     }
+
     h2 {
       margin-bottom: 20px;
     }
+
     input[type="text"],
     input[type="email"],
     textarea {
@@ -810,9 +821,11 @@ button {
       border-radius: 4px;
       font-size: 14px;
     }
+
     textarea {
       height: 100px;
     }
+
     button {
       padding: 10px 20px;
       background-color: #5ca145;
@@ -821,9 +834,11 @@ button {
       border-radius: 4px;
       cursor: pointer;
     }
+
     .contact-info h3 {
       margin-bottom: 10px;
     }
+
     .contact-row {
       display: flex;
       justify-content: space-between;
@@ -839,15 +854,18 @@ button {
     .contact-info a:hover {
       text-decoration: underline;
     }
+
     .logos {
       display: flex;
       justify-content: center;
       gap: 40px;
       margin-top: 40px;
     }
+
     .logos img {
       height: 40px;
     }
+
     footer {
       position: fixed;
       bottom: 0;
@@ -871,13 +889,9 @@ button {
       transition: transform 0.3s ease;
       transform: translateY(0);
     }
+
     footer.hidden {
       transform: translateY(100%);
-    }
-    body {
-      padding-bottom: 180px;
-      margin: 0;
-      box-sizing: border-box;
     }
   </style>
 </head>
@@ -893,7 +907,6 @@ button {
   <a href="about.html">About</a>
   <a href="contact.html">Contact</a>
 </nav>
-
 <section>
   <h2>Contact Us</h2>
   <div class="container">
@@ -906,23 +919,31 @@ button {
         <button type="submit">Send</button>
       </form>
     </div>
+
     <div class="contact-section">
       <h3>Newman Junior Soccer Association</h3>
       <p>Kangaroo Oval, Capricorn Sporting Complex, Fortescue Avenue<br>
         Newman, Western Australia, 6753<br>Australia</p>
+
       <div class="contact-info">
         <h3>Contacts</h3>
-        <div class="contact-row"><div>Tahnee Bonney</div><div>President</div><div><a href="mailto:president.njsa@hotmail.com">president.njsa@gmail.com</a></div></div>
-        <div class="contact-row"><div>Soul Jones</div><div>Vice President</div><div><a href="mailto:newmanjuniorsoccer@hotmail.com">newmanjuniorsoccer@gmail.com</a></div></div>
-        <div class="contact-row"><div>Rosarita Taranto</div><div>Secretary</div><div><a href="mailto:newmanjuniorsoccer@hotmail.com">newmanjuniorsoccer@gmail.com</a></div></div>
-        <div class="contact-row"><div>Grim Reutens</div><div>Treasurer</div><div><a href="mailto:newmanjuniorsoccer@hotmail.com">newmanjuniorsoccer@gmail.com</a></div></div>
-        <div class="contact-row"><div>Yase Dandy</div><div>Registrar</div><div><a href="mailto:newmanjuniorsoccer@hotmail.com">newmanjuniorsoccer@gmail.com</a></div></div>
+        <div class="contact-row"><div>Tahnee Bonney</div>      <div>President</div><div><a href="mailto:president.njsa@hotmail.com">president.njsa@gmail.com</a></div></div>
+        <div class="contact-row"><div>Soul Jones</div>         <div>Vice President</div><div><a href="mailto:newmanjuniorsoccer@hotmail.com">newmanjuniorsoccer@gmail.com</a></div></div>
+        <div class="contact-row"><div>Rosarita Taranto</div>   <div>Secretary</div><div><a href="mailto:newmanjuniorsoccer@hotmail.com">newmanjuniorsoccer@gmail.com</a></div></div>
+        <div class="contact-row"><div>Grim Reutens</div>       <div>Treasurer</div><div><a href="mailto:newmanjuniorsoccer@hotmail.com">newmanjuniorsoccer@gmail.com</a></div></div>
+        <div class="contact-row"><div>Yase Dandy</div>         <div>Registrar</div><div><a href="mailto:newmanjuniorsoccer@hotmail.com">newmanjuniorsoccer@gmail.com</a></div></div>
       </div>
+
       <h3 style="margin-top: 20px;">Correspondence</h3>
       <p>PO Box 109 Newman WA 6753</p>
     </div>
   </div>
 </section>
+
+<div class="logos">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/Dot_painting_example.svg/1200px-Dot_painting_example.svg.png" alt="KingKira Logo">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Breight.png/600px-Breight.png" alt="Breight Logo">
+</div>
 
 <footer id="pageFooter">
   <div style="flex: 1 1 300px; min-width: 280px; display: flex; flex-direction: column; gap: 6px; text-align: left;">
@@ -941,13 +962,15 @@ button {
     </div>
   </div>
   <div style="flex: 0 1 300px; max-width: 300px; border-radius: 15px; overflow: hidden; box-shadow: 0 2px 8px rgba(0,0,0,0.3);">
-    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3236.0039405795337!2d119.73335161526105!3d-23.36169418075262!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2b93b4e6bb0a0f67%3A0xe2cac18a51c587d8!2sCapricorn%20Oval!5e0!3m2!1sen!2sau!4v1716825301440!5m2!1sen!2sau"
+    <iframe
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3236.0039405795337!2d119.73335161526105!3d-23.36169418075224!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2bfec4bd3eb8ad8b%3A0x908d28cc6c02d96b!2sCapricorn%20Oval!5e0!3m2!1sen!2sau!4v1717920206906!5m2!1sen!2sau"
       width="100%"
       height="150"
       style="border:0; display:block;"
       allowfullscreen=""
       loading="lazy"
-      referrerpolicy="no-referrer-when-downgrade"></iframe>
+      referrerpolicy="no-referrer-when-downgrade">
+    </iframe>
   </div>
 </footer>
 
