@@ -386,6 +386,9 @@ nav a:hover {
   <source src="https://raw.githubusercontent.com/Chaos687/Assignment-2-Documentation/main/Website%20video%20explainer.mp4" type="video/mp4">
   Your browser does not support the video tag.
   </video>
+   <video width="640" height="360" controls>
+   <source src="https://raw.githubusercontent.com/Chaos687/Assignment-2-Documentation/main/Website%20video%20explainer.mp4" type="video/mp4">
+   </video>
 ---
 
 #### Carousel Section:
@@ -570,6 +573,11 @@ nav a:hover {
   </video>
 =======
 >>>>>>> 2a90ce714beb409f13e066201da998dea55b768c
+
+    <video width="640" height="360" controls>
+    <source src="https://raw.githubusercontent.com/Chaos687/Assignment-2-Documentation/main/Website%20video%20explainer.mp4" type="video/mp4">
+    </video>
+ 
   <section>
     <div class="carousel-wrapper">
       <div class="carousel-track">
